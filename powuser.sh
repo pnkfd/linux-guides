@@ -61,8 +61,8 @@ NAME=$( getent_user $CHOOSE_USER ) #Salva só o nome de usuário em $NAME para r
 
 
 if [[ "$1" = 1 ||  "$1" = 2 ||  "$1" = 9  ||  #checa se a escolha tem no menu (1-9)
-     "$1" = 5 ||  "$1" = 6 ||  "$1" = 7   ||  #checa se a escolha tem no menu  (1-9)
-    "$1" = 8 ||  "$1" = 9 ]];then  #checa se a escolhe tem no menu (1-9)
+     "$1" = 5 ||  "$1" = 6 ||  "$1" = 7   ||  #checa se a escolha tem no menu (1-9)
+    "$1" = 8 ||  "$1" = 9 ]];then             #checa se a escolhe tem no menu (1-9)
 #1º case
 case $1 in  #caso sim, roda o case
     1) # o primeiro é travar (lock) a conta
